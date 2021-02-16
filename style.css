@@ -107,6 +107,7 @@ ul li a{
    }
    .container-deploy{
      flex-wrap: wrap;
+     width: 90%;
    }
    .deploy-item,
    .deploy-item-right{
