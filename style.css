@@ -2,5 +2,90 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto', sans-serif;
   background-color: pink;
 }
+.whi_color{
+  color:#ffffff;
+}
+.blu_color{
+  color:#031c4e;
+}
+.bluel_color{
+  color: #006aff;
+}
+.gray_color{
+  color: #5c6a88;
+}
+.lgray_color{
+  color: #bbc7e8;
+}
+.lgray_color_copy{
+  color: #8b94a9;
+}
+.lgray_color_footer{
+  color: #7a859d;
+}
+.aqua_color{
+  color: #00d7d2;
+}
+.bg_aqua{
+  background-color: #00d7d2;
+}
+.bg_whi{
+  background-color: #ffffff;
+}
+.bg_gray{
+  background-color: #f3f5f9;
+}
+.text-uppercase{
+  text-transform: uppercase;
+}
+.text-center{
+  text-align: center;
+}
+section{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+.set-loghi{
+  display: flex;
+}
+h4{
+  font-size: 18px;
+  font-weight: 500;
+  padding-bottom: 30px;
+}
+.set-loghi{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+img.loghi_img{
+    margin: 10px;
+    text-align: center;
+  }
+  div.link a{
+  text-decoration: none;
+  font-weight: bold;
+  }
+  @media screen and (max-width:992px) {
+   img.loghi_img{
+     max-width: calc((100% / 6) - 20px);
+     width: 35%;
+   }
+  }
+  @media screen and (max-width:768px) {
+    .set-loghi{
+      flex-wrap: wrap;
+    }
+    img.loghi_img {
+    max-width: calc((100% / 2) - 20px);
+    padding: 20px;
+   }
+  }
+  @media screen and (max-width:420px) {
+
+  }
